@@ -6,3 +6,5 @@ const server = http.createServer((req, res) =>
 });
 
 server.listen(process.env.PORT || 3000);
+
+// nodemon a été installé en local, à part ça rien de modifié dans le code
